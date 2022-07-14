@@ -17,6 +17,23 @@
             transform: translateY(0%);
         }
     }
+
+    .title{
+        color: $backgroundColor;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    img{
+        width: 500px;
+        height: 350px;
+        object-fit: cover;
+        // filter: grayscale(0%);
+        &:hover{
+            filter: grayscale(100%);
+        }
+    
     
     }
 
+}
