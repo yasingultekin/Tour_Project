@@ -23,3 +23,9 @@
         text-align: center;
     }
 }
+
+@include media-sm{
+    .navbar{
+        flex-direction: row;
+    }
+}
